@@ -5,7 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0097fb8c12d530c44af124096cb2fd60
+  - enabled: 1
+    path: Assets/Scenes/CharacterSelect.unity
+    guid: 63e1d6a794dcbec4daced5b3605d2b44
+  - enabled: 1
+    path: Assets/Scenes/Rules.unity
+    guid: d6600400f89a68645ab9eaa7c4a7227c
+  - enabled: 0
+    path: Assets/Scenes/FightScene.unity
+    guid: e2d40debcecb5224f9643f72cb5c4619
+  - enabled: 1
+    path: Assets/Scenes/Fight_Map1.unity
+    guid: c2ae412ac648bdc4892e8e3854ca4aa1
+  - enabled: 1
+    path: Assets/Scenes/Fight_Map2.unity
+    guid: 95af2285ed85ae742847788a135c9cbf
   m_configObjects: {}

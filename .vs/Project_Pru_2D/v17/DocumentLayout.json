@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\cac-ki-fpt\\k\u00EC 7\\pru213\\projectgame\\project_pru_2d\\assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\assets\\scripts\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\assets\\scripts\\rulesui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rulesui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FightCharacterSpawner.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FightCharacterSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T04:45:03.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectManager.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\SelectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectManager.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\SelectManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SelectManager.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAADwv9MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:55:30.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameSettings.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\GameSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSettings.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\GameSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:28:00.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RulesUI.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RulesUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RulesUI.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RulesUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RulesUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:01:55.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T02:49:38.23Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
