@@ -14,6 +14,7 @@ public class FighterController : MonoBehaviour
     private Rigidbody2D rb;
     public bool IsGrounded { get; private set; }
     public float MoveInput { get; private set; }
+    public bool AttackPressed { get; private set; }
 
     void Start()
     {
@@ -25,6 +26,7 @@ public class FighterController : MonoBehaviour
     {
         Move();
         Jump();
+        ReadAttackInput();
     }
 
     void Move()
@@ -65,6 +67,13 @@ public class FighterController : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+    }
+
+    void ReadAttackInput()
+    {
+        AttackPressed = playerID == 1
+            ? Input.GetKeyDown(KeyCode.J)
+            : Input.GetKeyDown(KeyCode.Alpha1);
     }
 
     void OnCollisionEnter2D(Collision2D col)

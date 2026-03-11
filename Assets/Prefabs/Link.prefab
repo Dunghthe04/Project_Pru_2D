@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5350452625985403981}
   - component: {fileID: 3191892218903734608}
   - component: {fileID: 4818763123090037415}
+  - component: {fileID: 8578677113340105519}
+  - component: {fileID: 1874083256624201805}
   m_Layer: 0
   m_Name: Link
   m_TagString: Untagged
@@ -174,3 +176,37 @@ MonoBehaviour:
   playerID: 1
   moveSpeed: 5
   jumpForce: 8
+--- !u!95 &8578677113340105519
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537940481527940745}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ca3e6501434f4f746be8fc745e36bacb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1874083256624201805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5537940481527940745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14c9a6f58762334f80cf824af487cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDelay: 0.5

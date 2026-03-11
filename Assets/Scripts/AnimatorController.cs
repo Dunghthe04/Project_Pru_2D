@@ -28,7 +28,7 @@ public class AnimatorController : MonoBehaviour
 
     void HandleAttack()
     {
-        if (Input.GetKeyDown(KeyCode.J))
+        if (fightController.AttackPressed)
         {
             attackTimer = attackDelay;
             anim.SetBool("Attack", true);
