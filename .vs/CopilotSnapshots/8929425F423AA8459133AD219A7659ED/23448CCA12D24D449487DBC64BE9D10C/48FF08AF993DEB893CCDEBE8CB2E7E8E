@@ -1,0 +1,85 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+public class NarutoAnimatorController : MonoBehaviour
+{
+    private Animator anim;
+    private Rigidbody2D rb;
+    private bool isAttacking = false;
+
+    public float speed = 5f;
+    public float jumpForce = 8f;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        Move();
+        Jump();
+        Attack();
+    }
+
+    void Move()
+    {
+        float move = Input.GetAxis("Horizontal");
+
+        rb.velocity = new Vector2(move * speed, rb.velocity.y);
+
+        anim.SetFloat("Speed", Mathf.Abs(move));
+
+        if (!anim.GetBool("Jump") && !isAttacking)
+        {
+            Vector3 scale = transform.localScale;
+
+            if (move > 0)
+                scale.x = Mathf.Abs(scale.x);
+            else if (move < 0)
+                scale.x = -Mathf.Abs(scale.x);
+
+            transform.localScale = scale;
+        }
+    }
+
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            anim.SetBool("Jump", true);
+        }
+
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            anim.SetBool("Jump", false);
+        }
+    }
+
+    void Attack()
+    {
+        if (Input.GetKeyDown(KeyCode.J) && !isAttacking)
+        {
+            anim.SetTrigger("Attack");
+            StartCoroutine(ResetAttack());
+        }
+    }
+
+    IEnumerator ResetAttack()
+    {
+        isAttacking = true;
+        yield return null; // đợi 1 frame để Animator xử lý Trigger
+        yield return new WaitUntil(() =>
+            anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") &&
+            anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f);
+        isAttacking = false;
+    }
+}

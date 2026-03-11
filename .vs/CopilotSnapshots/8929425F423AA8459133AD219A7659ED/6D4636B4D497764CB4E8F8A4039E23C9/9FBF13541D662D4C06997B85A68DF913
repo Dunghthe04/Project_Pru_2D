@@ -1,0 +1,48 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AnimatorController : MonoBehaviour
+{
+    private Animator anim;
+    private FighterController fightController;
+    private bool isAttacking = false;
+    private bool queuedAttack = false;
+
+    void Start()
+    {   
+        anim = GetComponent<Animator>();
+        fightController = GetComponent<FighterController>();
+    }
+
+    void Update()
+    {
+        UpdateAnimations();
+        Attack();
+    }
+
+    void UpdateAnimations()
+    {
+        anim.SetFloat("Speed", Mathf.Abs(fightController.MoveInput));
+        anim.SetBool("Jump", !fightController.IsGrounded);
+    }
+
+    void Attack()
+    {
+        if (Input.GetKeyDown(KeyCode.J) && !isAttacking)
+        {
+            anim.SetTrigger("Attack");
+            StartCoroutine(ResetAttack());
+        }
+    }
+
+    IEnumerator ResetAttack()
+    {
+        isAttacking = true;
+        yield return null;
+        yield return new WaitUntil(() =>
+            anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") &&
+            anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f);
+        isAttacking = false;
+    }
+}

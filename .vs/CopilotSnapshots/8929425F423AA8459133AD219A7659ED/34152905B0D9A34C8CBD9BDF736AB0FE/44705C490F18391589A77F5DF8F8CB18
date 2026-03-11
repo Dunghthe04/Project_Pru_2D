@@ -9,8 +9,8 @@ public class FightCharacterSpawner : MonoBehaviour
     [Header("Character prefabs list (same order as SelectScene)")]
     public GameObject[] characterPrefabs; // size = 5
 
-    public float characterScale = 2f;
-    public float narutoScale = 3f;
+    public float characterScale = 3f;
+    public float narutoScale = 4.5f;
 
     float GetScale(GameObject prefab) =>
         prefab.name.Contains("Naruto") ? narutoScale : characterScale;
@@ -27,10 +27,8 @@ public class FightCharacterSpawner : MonoBehaviour
             Instantiate(characterPrefabs[p2], p2Spawn.position, Quaternion.identity);
 
         // scale nhân vật
-        float s1 = GetScale(characterPrefabs[p1]);
-        float s2 = GetScale(characterPrefabs[p2]);
-        player1.transform.localScale = Vector3.one * s1;
-        player2.transform.localScale = new Vector3(-s2, s2, s2);
+        player1.transform.localScale = Vector3.one * characterScale;
+        player2.transform.localScale = new Vector3(-characterScale, characterScale, characterScale);
 
         player1.GetComponent<FighterController>().playerID = 1;
         player2.GetComponent<FighterController>().playerID = 2;

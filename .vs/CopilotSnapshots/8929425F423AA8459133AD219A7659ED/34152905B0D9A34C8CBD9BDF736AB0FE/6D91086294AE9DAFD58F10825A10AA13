@@ -9,8 +9,8 @@ public class FightCharacterSpawner : MonoBehaviour
     [Header("Character prefabs list (same order as SelectScene)")]
     public GameObject[] characterPrefabs; // size = 5
 
-    public float characterScale = 2f;
-    public float narutoScale = 3f;
+    public float characterScale = 3f;
+    public float narutoScale = 4.5f;
 
     float GetScale(GameObject prefab) =>
         prefab.name.Contains("Naruto") ? narutoScale : characterScale;

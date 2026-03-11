@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5992975036877943454}
   - component: {fileID: 5481950797003332869}
   - component: {fileID: 1564779088225044469}
-  - component: {fileID: 8706833466032225003}
+  - component: {fileID: 1097183065068307781}
   m_Layer: 0
   m_Name: Naruto
   m_TagString: Untagged
@@ -197,7 +197,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8706833466032225003
+--- !u!114 &1097183065068307781
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,8 +206,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4358439011874826461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22546c9c628005f4eaa590b7bde432d5, type: 3}
+  m_Script: {fileID: 11500000, guid: b14c9a6f58762334f80cf824af487cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 8

@@ -12,7 +12,8 @@ public class FighterController : MonoBehaviour
     float baseScale;
 
     private Rigidbody2D rb;
-    private bool isGrounded;
+    public bool IsGrounded { get; private set; }
+    public float MoveInput { get; private set; }
 
     void Start()
     {
@@ -41,6 +42,7 @@ public class FighterController : MonoBehaviour
             if (Input.GetKey(KeyCode.RightArrow)) move = 1;
         }
 
+        MoveInput = move;
         rb.velocity = new Vector2(move * moveSpeed, rb.velocity.y);
 
         if (move > 0)
@@ -52,7 +54,7 @@ public class FighterController : MonoBehaviour
 
     void Jump()
     {
-        if (!isGrounded) return;
+        if (!IsGrounded) return;
 
         if (playerID == 1 && Input.GetKeyDown(KeyCode.W))
         {
@@ -69,7 +71,7 @@ public class FighterController : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Ground"))
         {
-            isGrounded = true;
+            IsGrounded = true;
         }
     }
 
@@ -77,7 +79,7 @@ public class FighterController : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Ground"))
         {
-            isGrounded = false;
+            IsGrounded = false;
         }
     }
 }
