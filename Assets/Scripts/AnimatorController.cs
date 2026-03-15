@@ -34,7 +34,7 @@ public class AnimatorController : MonoBehaviour
 
     public void PlayDeath()
     {
-        anim.SetTrigger("Dead");
+        anim.SetTrigger("Death");
     }
     void HandleAttack()
     {
