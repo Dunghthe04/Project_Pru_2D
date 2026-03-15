@@ -38,7 +38,7 @@ public class AnimatorController : MonoBehaviour
     }
     void HandleAttack()
     {
-        if (fightController.AttackPressed)
+        if (fightController.AttackPressed && !anim.GetBool("Attack"))
         {
             attackTimer = attackDelay;
             anim.SetBool("Attack", true);
