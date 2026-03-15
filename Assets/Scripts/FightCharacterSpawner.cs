@@ -11,6 +11,8 @@ public class FightCharacterSpawner : MonoBehaviour
 
     public float characterScale = 2f;
     public float narutoScale = 3f;
+    public HealthBarUI p1HealthBar;
+    public HealthBarUI p2HealthBar;
 
     float GetScale(GameObject prefab) =>
         prefab.name.Contains("Naruto") ? narutoScale : characterScale;
@@ -19,6 +21,8 @@ public class FightCharacterSpawner : MonoBehaviour
     {
         int p1 = GameSettings.I != null ? GameSettings.I.p1CharIndex : 0;
         int p2 = GameSettings.I != null ? GameSettings.I.p2CharIndex : 0;
+
+
 
         GameObject player1 =
             Instantiate(characterPrefabs[p1], p1Spawn.position, Quaternion.identity);
@@ -34,5 +38,8 @@ public class FightCharacterSpawner : MonoBehaviour
 
         player1.GetComponent<FighterController>().playerID = 1;
         player2.GetComponent<FighterController>().playerID = 2;
+        // GÁN MÁU CHO UI
+        p1HealthBar.fighter = player1.GetComponent<FighterHealth>();
+        p2HealthBar.fighter = player2.GetComponent<FighterHealth>();
     }
 }

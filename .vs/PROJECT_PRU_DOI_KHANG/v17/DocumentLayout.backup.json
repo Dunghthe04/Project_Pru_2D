@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROJECT_PRU_DOI_KHANG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|d:\\project_pru_doi_khang\\assets\\scripts\\attackhittbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackhittbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|d:\\project_pru_doi_khang\\assets\\scripts\\fighterhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fighterhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|d:\\project_pru_doi_khang\\assets\\scripts\\healthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\rulesui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rulesui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 48,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FighterHealth.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FighterHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FighterHealth.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FighterHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FighterHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T16:44:44.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HealthBarUI.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\HealthBarUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBarUI.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\HealthBarUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthBarUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:32:33.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttackHittbox.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\AttackHittbox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackHittbox.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\AttackHittbox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackHittbox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:43:35.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RulesUI.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\RulesUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RulesUI.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\RulesUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RulesUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:30:28.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:30:15.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FighterController.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FighterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FighterController.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FighterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FighterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:29:43.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FightCharacterSpawner.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FightCharacterSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FightCharacterSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FightCharacterSpawner.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:29:31.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SelectManager.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\SelectManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectManager.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\SelectManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SelectManager.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAANsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T13:50:24.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimatorController.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\AnimatorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorController.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\AnimatorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimatorController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:29:09.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameSettings.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\GameSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSettings.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\GameSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T14:29:58.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

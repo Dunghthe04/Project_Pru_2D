@@ -8,6 +8,8 @@ public class AnimatorController : MonoBehaviour
     private float attackTimer = 0f;
     public float attackDelay = 0.5f;
 
+    public GameObject attackPoint;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -32,6 +34,7 @@ public class AnimatorController : MonoBehaviour
         {
             attackTimer = attackDelay;
             anim.SetBool("Attack", true);
+            attackPoint.GetComponent<Collider2D>().enabled = true;
         }
 
         if (anim.GetBool("Attack"))
@@ -41,6 +44,7 @@ public class AnimatorController : MonoBehaviour
             if (attackTimer <= 0)
             {
                 anim.SetBool("Attack", false);
+                attackPoint.GetComponent<Collider2D>().enabled = false;
             }
         }
     }
