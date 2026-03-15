@@ -27,7 +27,15 @@ public class AnimatorController : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(fightController.MoveInput));
         anim.SetBool("Jump", !fightController.IsGrounded);
     }
+    public void PlayHurt()
+    {
+        anim.SetTrigger("Hurt");
+    }
 
+    public void PlayDeath()
+    {
+        anim.SetTrigger("Dead");
+    }
     void HandleAttack()
     {
         if (fightController.AttackPressed)
