@@ -47,5 +47,11 @@ public class FightCharacterSpawner : MonoBehaviour
         // GÁN MANA CHO UI
         if(p1ManaBar != null) p1ManaBar.fighter = player1.GetComponent<FighterHealth>();
         if(p2ManaBar != null) p2ManaBar.fighter = player2.GetComponent<FighterHealth>();
+
+
+        RoundManager.I.RegisterPlayers(
+        player1.GetComponent<FighterHealth>(),
+        player2.GetComponent<FighterHealth>()
+    );
     }
 }
