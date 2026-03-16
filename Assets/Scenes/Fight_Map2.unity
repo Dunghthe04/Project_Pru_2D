@@ -911,7 +911,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 1
   m_UseSpriteMesh: 0
@@ -1461,6 +1461,8 @@ MonoBehaviour:
   narutoScale: 3
   p1HealthBar: {fileID: 694522465}
   p2HealthBar: {fileID: 1629828706}
+  p1ManaBar: {fileID: 1820486846}
+  p2ManaBar: {fileID: 1162143459}
 --- !u!4 &1625677540
 Transform:
   m_ObjectHideFlags: 0
@@ -1631,7 +1633,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0

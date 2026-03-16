@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\pru\\naruto2d\\project_pru_2d\\assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\pru\\naruto2d\\project_pru_2d\\assets\\scripts\\skillprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skillprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\pru\\naruto2d\\project_pru_2d\\assets\\scripts\\manabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\pru\\naruto2d\\project_pru_2d\\assets\\scripts\\healthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\attackhittbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackhittbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\healthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\pru\\naruto2d\\project_pru_2d\\assets\\scripts\\fighterhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\manabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\fighterhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fighterhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,54 +55,112 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FightCharacterSpawner.cs",
-              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
-              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FightCharacterSpawner.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Title": "SkillProjectile.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\SkillProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SkillProjectile.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\SkillProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SkillProjectile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:54:27.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HealthBarUI.cs",
-              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\HealthBarUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBarUI.cs",
-              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\HealthBarUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HealthBarUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:38:43.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FighterHealth.cs",
-              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FighterHealth.cs",
-              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FighterHealth.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:36:57.927Z",
+              "WhenOpened": "2026-03-16T10:15:46.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AnimatorController.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\AnimatorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorController.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\AnimatorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimatorController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:15:46.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FighterController.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FighterController.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FighterController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAewAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-16T10:15:46.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttackHittbox.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\AttackHittbox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackHittbox.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\AttackHittbox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackHittbox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-16T10:15:46.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FightCharacterSpawner.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FightCharacterSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-16T07:54:27.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameSettings.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\GameSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSettings.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\GameSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-16T10:15:46.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthBarUI.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\HealthBarUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBarUI.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\HealthBarUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthBarUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-16T07:38:43.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FighterHealth.cs",
+              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FighterHealth.cs",
+              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FighterHealth.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-16T07:36:57.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ManaBarUI.cs",
               "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\ManaBarUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ManaBarUI.cs",
               "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\ManaBarUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\ManaBarUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:31:44.354Z",
-              "EditorCaption": ""
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-16T07:31:44.354Z"
             }
           ]
         }

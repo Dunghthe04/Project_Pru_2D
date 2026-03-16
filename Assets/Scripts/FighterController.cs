@@ -12,23 +12,38 @@ public class FighterController : MonoBehaviour
     float baseScale;
 
     private Rigidbody2D rb;
+    private Animator anim;
     public bool IsGrounded { get; private set; }
     public float MoveInput { get; private set; }
     public bool AttackPressed { get; private set; }
+    public bool SkillPressed { get; private set; }
     public bool IsBlocking { get; private set; }
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         baseScale = Mathf.Abs(transform.localScale.x);
     }
 
     void Update()
     {
+        // Khóa mọi hành động nếu đang dùng skill
+        if (anim != null && anim.GetBool("Skill"))
+        {
+            MoveInput = 0;
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            IsBlocking = false;
+            AttackPressed = false;
+            SkillPressed = false;
+            return;
+        }
+
         ReadBlockInput();
         Move();
         Jump();
         ReadAttackInput();
+        ReadSkillInput();
     }
 
     void Move()
@@ -86,6 +101,13 @@ public class FighterController : MonoBehaviour
         AttackPressed = playerID == 1
             ? Input.GetKeyDown(KeyCode.J)
             : Input.GetKeyDown(KeyCode.Alpha1);
+    }
+
+    void ReadSkillInput()
+    {
+        SkillPressed = playerID == 1
+            ? Input.GetKeyDown(KeyCode.U)
+            : Input.GetKeyDown(KeyCode.Alpha4);
     }
 
     void OnCollisionEnter2D(Collision2D col)
