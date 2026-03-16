@@ -9,6 +9,14 @@ public class FighterController : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 8f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip attackSound;
+    [SerializeField] private AudioClip skillSound;
+    [SerializeField] private AudioClip blockSound;
+    [SerializeField] private AudioClip landSound;
+
     float baseScale;
 
     private Rigidbody2D rb;
@@ -24,11 +32,13 @@ public class FighterController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         baseScale = Mathf.Abs(transform.localScale.x);
+
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        // Khóa mọi hành động nếu đang dùng skill
         if (anim != null && anim.GetBool("Skill"))
         {
             MoveInput = 0;
@@ -81,19 +91,28 @@ public class FighterController : MonoBehaviour
         if (playerID == 1 && Input.GetKeyDown(KeyCode.W))
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            PlaySound(jumpSound);
         }
 
         if (playerID == 2 && Input.GetKeyDown(KeyCode.UpArrow))
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            PlaySound(jumpSound);
         }
     }
 
     void ReadBlockInput()
     {
+        bool wasBlocking = IsBlocking;
+
         IsBlocking = playerID == 1
             ? Input.GetKey(KeyCode.S)
             : Input.GetKey(KeyCode.DownArrow);
+
+        if (!wasBlocking && IsBlocking)
+        {
+            PlaySound(blockSound);
+        }
     }
 
     void ReadAttackInput()
@@ -101,6 +120,11 @@ public class FighterController : MonoBehaviour
         AttackPressed = playerID == 1
             ? Input.GetKeyDown(KeyCode.J)
             : Input.GetKeyDown(KeyCode.Alpha1);
+
+        if (AttackPressed)
+        {
+            PlaySound(attackSound);
+        }
     }
 
     void ReadSkillInput()
@@ -108,13 +132,24 @@ public class FighterController : MonoBehaviour
         SkillPressed = playerID == 1
             ? Input.GetKeyDown(KeyCode.U)
             : Input.GetKeyDown(KeyCode.Alpha4);
+
+        if (SkillPressed)
+        {
+            PlaySound(skillSound);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Ground"))
         {
+            bool wasGrounded = IsGrounded;
             IsGrounded = true;
+
+            if (!wasGrounded)
+            {
+                PlaySound(landSound);
+            }
         }
     }
 
@@ -123,6 +158,14 @@ public class FighterController : MonoBehaviour
         if (col.gameObject.CompareTag("Ground"))
         {
             IsGrounded = false;
+        }
+    }
+
+    void PlaySound(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip);
         }
     }
 }

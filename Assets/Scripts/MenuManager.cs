@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
@@ -7,20 +8,31 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private string characterSelectScene = "CharacterSelect";
     [SerializeField] private string rulesScene = "Rules";
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clickSound;
+
     public void OnStartPressed()
     {
-        SceneManager.LoadScene(characterSelectScene);
+        StartCoroutine(PlayClickThenLoadScene(characterSelectScene));
     }
 
     public void OnRulesPressed()
     {
-        SceneManager.LoadScene(rulesScene);
+        StartCoroutine(PlayClickThenLoadScene(rulesScene));
     }
 
     public void OnExitPressed()
     {
-        // Trong Editor thì không thoát, chỉ thoát khi build exe
+        audioSource.PlayOneShot(clickSound);
         Application.Quit();
         Debug.Log("Quit Game (chỉ hoạt động khi build).");
+    }
+
+    private IEnumerator PlayClickThenLoadScene(string sceneName)
+    {
+        audioSource.PlayOneShot(clickSound);
+        yield return new WaitForSeconds(0.2f);
+        SceneManager.LoadScene(sceneName);
     }
 }
