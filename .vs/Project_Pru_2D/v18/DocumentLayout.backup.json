@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\pru\\naruto2d\\project_pru_2d\\assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\PRU\\Naruto2D\\Project_Pru_2D\\assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\pru\\naruto2d\\project_pru_2d\\assets\\scripts\\naruto\\narutoanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\naruto\\narutoanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\Naruto\\NarutoAnimatorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Naruto\\NarutoAnimatorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,64 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AnimatorController.cs",
-              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\AnimatorController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorController.cs",
-              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\AnimatorController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnimatorController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T07:48:55.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FightCharacterSpawner.cs",
-              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
-              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FightCharacterSpawner.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T07:48:55.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "NarutoAnimatorController.cs",
               "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\Naruto\\NarutoAnimatorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Naruto\\NarutoAnimatorController.cs",
               "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\Naruto\\NarutoAnimatorController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Naruto\\NarutoAnimatorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T07:48:55.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FighterController.cs",
-              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FighterController.cs",
-              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\FighterController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FighterController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAUAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-03-11T07:48:55.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SelectManager.cs",
-              "DocumentMoniker": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\SelectManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectManager.cs",
-              "ToolTip": "D:\\PRU\\Naruto2D\\Project_Pru_2D\\Assets\\Scripts\\SelectManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SelectManager.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAMwEYAAAAxAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVFhH7dW9LoNRGAfwX\u002B0dmBjE6iMWi69gEroabCJpL6DC3Cg3IL2AMtjETGrU\u002BJgsEu1o062DCzgGeRsVL4mBhvOb3jznnOQ5/5PzHqIo\u002Bu8yyUez1QywfVkEN0/XYHxgAlSXj8Do4FhnzVuHd9UA\u002BalC13haPdH3vvDTOl3NH08HWB3JgdJiOQP7l\u002BUAt60bcLZe\u002B3An/ZVsgHbxuWs8rZ7onQS\u002B6nSyOhbgvtDIeHO2O/Wt91M/tTy8Ak7WTjN6IYGO/ko2JCl8R9r6tHri1xOIDcRb0Nlt7mQlwNzQHCgt7L7\u002BCet7AWqP5\u002BBq4/bDhNISTKsneieB5DXMX2yCRvsBzAzOgoOlCn/xNYyiKHoBupRyLYh9Y/kAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-03-11T07:48:55.607Z"
             }
           ]
         }

@@ -13,6 +13,8 @@ public class FightCharacterSpawner : MonoBehaviour
     public float narutoScale = 3f;
     public HealthBarUI p1HealthBar;
     public HealthBarUI p2HealthBar;
+    public ManaBarUI p1ManaBar;
+    public ManaBarUI p2ManaBar;
 
     float GetScale(GameObject prefab) =>
         prefab.name.Contains("Naruto") ? narutoScale : characterScale;
@@ -41,5 +43,9 @@ public class FightCharacterSpawner : MonoBehaviour
         // GÁN MÁU CHO UI
         p1HealthBar.fighter = player1.GetComponent<FighterHealth>();
         p2HealthBar.fighter = player2.GetComponent<FighterHealth>();
+
+        // GÁN MANA CHO UI
+        if(p1ManaBar != null) p1ManaBar.fighter = player1.GetComponent<FighterHealth>();
+        if(p2ManaBar != null) p2ManaBar.fighter = player2.GetComponent<FighterHealth>();
     }
 }
