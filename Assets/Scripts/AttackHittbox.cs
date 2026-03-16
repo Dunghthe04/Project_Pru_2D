@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AttackHitbox : MonoBehaviour
 {
-    public int damage = 10;
+    public int damage = 5;
 
     FighterController owner;
 

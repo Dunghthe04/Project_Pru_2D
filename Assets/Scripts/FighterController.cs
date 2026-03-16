@@ -15,6 +15,7 @@ public class FighterController : MonoBehaviour
     public bool IsGrounded { get; private set; }
     public float MoveInput { get; private set; }
     public bool AttackPressed { get; private set; }
+    public bool IsBlocking { get; private set; }
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class FighterController : MonoBehaviour
 
     void Update()
     {
+        ReadBlockInput();
         Move();
         Jump();
         ReadAttackInput();
@@ -33,15 +35,18 @@ public class FighterController : MonoBehaviour
     {
         float move = 0;
 
-        if (playerID == 1)
+        if (!IsBlocking)
         {
-            if (Input.GetKey(KeyCode.A)) move = -1;
-            if (Input.GetKey(KeyCode.D)) move = 1;
-        }
-        else
-        {
-            if (Input.GetKey(KeyCode.LeftArrow)) move = -1;
-            if (Input.GetKey(KeyCode.RightArrow)) move = 1;
+            if (playerID == 1)
+            {
+                if (Input.GetKey(KeyCode.A)) move = -1;
+                if (Input.GetKey(KeyCode.D)) move = 1;
+            }
+            else
+            {
+                if (Input.GetKey(KeyCode.LeftArrow)) move = -1;
+                if (Input.GetKey(KeyCode.RightArrow)) move = 1;
+            }
         }
 
         MoveInput = move;
@@ -56,7 +61,7 @@ public class FighterController : MonoBehaviour
 
     void Jump()
     {
-        if (!IsGrounded) return;
+        if (!IsGrounded || IsBlocking) return;
 
         if (playerID == 1 && Input.GetKeyDown(KeyCode.W))
         {
@@ -67,6 +72,13 @@ public class FighterController : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+    }
+
+    void ReadBlockInput()
+    {
+        IsBlocking = playerID == 1
+            ? Input.GetKey(KeyCode.S)
+            : Input.GetKey(KeyCode.DownArrow);
     }
 
     void ReadAttackInput()

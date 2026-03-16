@@ -26,6 +26,7 @@ public class AnimatorController : MonoBehaviour
     {
         anim.SetFloat("Speed", Mathf.Abs(fightController.MoveInput));
         anim.SetBool("Jump", !fightController.IsGrounded);
+        anim.SetBool("Block", fightController.IsBlocking);
     }
     public void PlayHurt()
     {
@@ -38,7 +39,7 @@ public class AnimatorController : MonoBehaviour
     }
     void HandleAttack()
     {
-        if (fightController.AttackPressed && !anim.GetBool("Attack"))
+        if (fightController.AttackPressed && !anim.GetBool("Attack") && !fightController.IsBlocking)
         {
             attackTimer = attackDelay;
             anim.SetBool("Attack", true);
