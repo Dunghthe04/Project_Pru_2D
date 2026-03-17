@@ -19,6 +19,7 @@ public class RoundManager : MonoBehaviour
     Vector3 p2StartPos;
 
     bool roundEnded = false;
+    bool isFighting = false;
     int currentRound = 1;
 
     void Awake()
@@ -33,11 +34,13 @@ public class RoundManager : MonoBehaviour
 
     IEnumerator StartRound()
     {
+        isFighting = false;
         ShowRoundText();
 
         yield return new WaitForSeconds(3f);
 
         roundText.gameObject.SetActive(false);
+        isFighting = true;
     }
 
     void ShowRoundText()
@@ -63,17 +66,19 @@ public class RoundManager : MonoBehaviour
 
     void Update()
     {
-        if (p1 == null || p2 == null) return;
+        if (p1 == null || p2 == null || !isFighting) return;
 
         if (!roundEnded)
         {
             if (p1.currentHealth <= 0)
             {
+                isFighting = false;
                 roundEnded = true;
                 Player2WinRound();
             }
             else if (p2.currentHealth <= 0)
             {
+                isFighting = false;
                 roundEnded = true;
                 Player1WinRound();
             }
@@ -112,6 +117,7 @@ public class RoundManager : MonoBehaviour
         ResetPlayers();
 
         roundEnded = false;
+        isFighting = true;
         roundText.gameObject.SetActive(false);
     }
 

@@ -39,14 +39,42 @@ public class FighterController : MonoBehaviour
 
     void Update()
     {
-        if (anim != null && anim.GetBool("Skill"))
+        if (anim != null)
         {
-            MoveInput = 0;
-            rb.velocity = new Vector2(0, rb.velocity.y);
-            IsBlocking = false;
-            AttackPressed = false;
-            SkillPressed = false;
-            return;
+            AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+
+            // Kiếm tra tên chính xác hoặc Tag cho Skill và Attack
+            bool inSkillState = stateInfo.IsName("Skill") || stateInfo.IsTag("Skill");
+            bool inAttackState = stateInfo.IsName("Attack") || stateInfo.IsTag("Attack");
+
+            if (!inSkillState && anim.GetCurrentAnimatorClipInfoCount(0) > 0)
+            {
+                string clipName = anim.GetCurrentAnimatorClipInfo(0)[0].clip.name.ToLower();
+                if (clipName.Contains("skill"))
+                {
+                    inSkillState = true;
+                }
+            }
+
+            if (!inAttackState && anim.GetCurrentAnimatorClipInfoCount(0) > 0)
+            {
+                string clipName = anim.GetCurrentAnimatorClipInfo(0)[0].clip.name.ToLower();
+                if (clipName.Contains("attack"))
+                {
+                    inAttackState = true;
+                }
+            }
+
+            // Khóa di chuyển nếu bool Skill, Attack đang bật hoặc clip Animator vẫn đang chiếu Skill/Attack
+            if (anim.GetBool("Skill") || inSkillState || anim.GetBool("Attack") || inAttackState)
+            {
+                MoveInput = 0;
+                rb.velocity = new Vector2(0, rb.velocity.y);
+                IsBlocking = false;
+                AttackPressed = false;
+                SkillPressed = false;
+                return;
+            }
         }
 
         ReadBlockInput();

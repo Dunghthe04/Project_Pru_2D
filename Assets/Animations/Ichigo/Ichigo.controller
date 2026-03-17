@@ -58,7 +58,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: Skill
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -135,7 +135,7 @@ AnimatorStateMachine:
     m_Position: {x: 80, y: -190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1433415216683707616}
-    m_Position: {x: -500, y: -60, z: 0}
+    m_Position: {x: -430, y: -60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6852091057459017241}
     m_Position: {x: 380, y: -50, z: 0}
@@ -387,7 +387,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 3bd686fa63c74844b8b29e1a6e5f1208, type: 2}
-  m_Tag: 
+  m_Tag: Skill
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 

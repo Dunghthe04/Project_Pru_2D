@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDelay: 0.5
-  skillDelay: 1
+  skillDelay: 0.5
   skillPrefab: {fileID: 4916097192543433531, guid: ee85f68d563970a42917b52424f0d596, type: 3}
   skillSpawnPoint: {fileID: 4823552755325634868}
   attackPoint: {fileID: 4388783997828646924}

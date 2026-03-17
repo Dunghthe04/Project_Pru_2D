@@ -178,6 +178,12 @@ MonoBehaviour:
   playerID: 1
   moveSpeed: 5
   jumpForce: 8
+  audioSource: {fileID: 0}
+  jumpSound: {fileID: 0}
+  attackSound: {fileID: 0}
+  skillSound: {fileID: 0}
+  blockSound: {fileID: 0}
+  landSound: {fileID: 0}
 --- !u!95 &1742342529253441100
 Animator:
   serializedVersion: 5
@@ -212,6 +218,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDelay: 0.5
+  skillDelay: 0.5
+  skillPrefab: {fileID: 4333298606294566527, guid: 6ef098cc9c465a74da2b3958fe5dc77c, type: 3}
+  skillSpawnPoint: {fileID: 0}
+  spawnSkillOnEnemy: 1
   attackPoint: {fileID: 8260790547215227420}
 --- !u!114 &-3102543565931067936
 MonoBehaviour:

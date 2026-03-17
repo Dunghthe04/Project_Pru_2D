@@ -5,6 +5,9 @@ public class SkillProjectile : MonoBehaviour
     public float speed = 10f;
     public int damage = 20;
     public float lifetime = 3f;
+    public bool destroyOnHit = true; // Thêm cờ để quyết định có huỷ khi trúng không
+
+    private bool hasHit = false;
 
     [HideInInspector]
     public int ownerPlayerID;
@@ -25,6 +28,8 @@ public class SkillProjectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        if (hasHit) return;
+
         FighterHealth health = col.GetComponent<FighterHealth>();
         FighterController controller = col.GetComponent<FighterController>();
 
@@ -32,8 +37,13 @@ public class SkillProjectile : MonoBehaviour
         if (health != null && controller != null && controller.playerID != ownerPlayerID)
         {
             health.TakeDamage(damage);
-            // Có thể thêm hiệu ứng nổ ở đây
-            Destroy(gameObject); 
+            hasHit = true;
+
+            // Chỉ huỷ Object nếu người dùng đánh dấu (đối với đạn bay bình thường)
+            if (destroyOnHit)
+            {
+                Destroy(gameObject); 
+            }
         }
     }
 }
