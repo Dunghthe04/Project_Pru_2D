@@ -154,6 +154,6 @@ public class RoundManager : MonoBehaviour
 
     void UpdateUI()
     {
-        scoreText.text = $"P1 {p1Score} : {p2Score} P2";
+        scoreText.text = $"{p1Score} : {p2Score}";
     }
 }

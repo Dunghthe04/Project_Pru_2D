@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\PROJECT_PRU_DOI_KHANG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|d:\\project_pru_doi_khang\\assets\\scripts\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|d:\\project_pru_doi_khang\\assets\\scripts\\skillprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skillprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|d:\\project_pru_doi_khang\\assets\\scripts\\manabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\manabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,15 +43,11 @@
       "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightcharacterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\attackhittbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackhittbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|d:\\project_pru_doi_khang\\assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|D:\\PROJECT_PRU_DOI_KHANG\\assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD49E6C5-A553-FC90-02AF-AD826950F149}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -85,19 +89,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoundManager.cs",
+              "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\RoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoundManager.cs",
+              "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\RoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoundManager.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAADwv4YAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:54:04.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SkillProjectile.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\SkillProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SkillProjectile.cs",
               "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\SkillProjectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\SkillProjectile.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA+wCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T16:51:48.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ManaBarUI.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\ManaBarUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ManaBarUI.cs",
@@ -105,12 +122,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ManaBarUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:51:19.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T16:51:19.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SelectManager.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\SelectManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectManager.cs",
@@ -118,12 +134,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SelectManager.cs",
               "ViewState": "AgIAALYAAAAAAAAAAAAAANsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T13:50:24.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T13:50:24.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AnimatorController.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\AnimatorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimatorController.cs",
@@ -131,12 +146,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AnimatorController.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAzwGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T14:29:09.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T14:29:09.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "FighterController.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FighterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FighterController.cs",
@@ -144,25 +158,24 @@
               "RelativeToolTip": "Assets\\Scripts\\FighterController.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAA8wH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T14:29:43.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T14:29:43.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "FightCharacterSpawner.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FightCharacterSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
               "ToolTip": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FightCharacterSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\FightCharacterSpawner.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T14:29:31.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AttackHittbox.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\AttackHittbox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AttackHittbox.cs",
@@ -170,12 +183,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AttackHittbox.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T14:43:35.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T14:43:35.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FighterHealth.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\FighterHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FighterHealth.cs",
@@ -183,12 +195,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FighterHealth.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:44:44.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T16:44:44.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GameSettings.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\GameSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSettings.cs",
@@ -196,12 +207,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T14:29:58.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T14:29:58.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
@@ -209,12 +219,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T14:30:15.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T14:30:15.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RulesUI.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\RulesUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RulesUI.cs",
@@ -226,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HealthBarUI.cs",
               "DocumentMoniker": "D:\\PROJECT_PRU_DOI_KHANG\\Assets\\Scripts\\HealthBarUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBarUI.cs",
@@ -234,8 +243,7 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthBarUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T15:32:33.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T15:32:33.377Z"
             },
             {
               "$type": "Bookmark",
