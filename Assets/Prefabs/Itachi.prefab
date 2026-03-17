@@ -220,10 +220,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDelay: 0.5
   skillDelay: 0.5
+  ultimateDelay: 0.8
   skillPrefab: {fileID: 6991109867328075754, guid: cc03ee9b32a2fed4592736ca3be0aa0a, type: 3}
   skillSpawnPoint: {fileID: 0}
   spawnSkillOnEnemy: 1
+  ultimatePrefab: {fileID: 119564678357291322, guid: 2db839f726012d845a00b04452b9c55d, type: 3}
+  ultimateSpawnPoint: {fileID: 0}
+  spawnUltimateOnEnemy: 1
   attackPoint: {fileID: 5900750690167686297}
+  skillPoint: {fileID: 0}
+  ultimatePoint: {fileID: 0}
+  attackDamage: 5
+  skillMeleeDamage: 15
+  ultimateMeleeDamage: 35
 --- !u!114 &8105913479243238250
 MonoBehaviour:
   m_ObjectHideFlags: 0

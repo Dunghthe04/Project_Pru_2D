@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3658844563753777027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8769935293041510953}
+  m_Layer: 0
+  m_Name: SkillSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8769935293041510953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3658844563753777027}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.287, y: -0.021, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4986759323777080372}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7308018874745955438
 GameObject:
   m_ObjectHideFlags: 0
@@ -38,6 +69,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 219229657035497999}
+  - {fileID: 8769935293041510953}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2679162227969240390
@@ -220,10 +252,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDelay: 0.5
   skillDelay: 0.5
+  ultimateDelay: 0.8
   skillPrefab: {fileID: 4333298606294566527, guid: 6ef098cc9c465a74da2b3958fe5dc77c, type: 3}
   skillSpawnPoint: {fileID: 0}
   spawnSkillOnEnemy: 1
+  ultimatePrefab: {fileID: 2960798888861635397, guid: 71d921859849e0d46986dd445e08686f, type: 3}
+  ultimateSpawnPoint: {fileID: 8769935293041510953}
+  spawnUltimateOnEnemy: 0
   attackPoint: {fileID: 8260790547215227420}
+  skillPoint: {fileID: 0}
+  ultimatePoint: {fileID: 0}
+  attackDamage: 5
+  skillMeleeDamage: 15
+  ultimateMeleeDamage: 35
 --- !u!114 &-3102543565931067936
 MonoBehaviour:
   m_ObjectHideFlags: 0

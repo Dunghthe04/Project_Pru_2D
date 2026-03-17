@@ -25,6 +25,7 @@ public class FighterController : MonoBehaviour
     public float MoveInput { get; private set; }
     public bool AttackPressed { get; private set; }
     public bool SkillPressed { get; private set; }
+    public bool UltimatePressed { get; private set; }
     public bool IsBlocking { get; private set; }
 
     void Start()
@@ -45,6 +46,7 @@ public class FighterController : MonoBehaviour
 
             // Kiếm tra tên chính xác hoặc Tag cho Skill và Attack
             bool inSkillState = stateInfo.IsName("Skill") || stateInfo.IsTag("Skill");
+            bool inUltimateState = stateInfo.IsName("Ultimate") || stateInfo.IsTag("Ultimate");
             bool inAttackState = stateInfo.IsName("Attack") || stateInfo.IsTag("Attack");
 
             if (!inSkillState && anim.GetCurrentAnimatorClipInfoCount(0) > 0)
@@ -53,6 +55,15 @@ public class FighterController : MonoBehaviour
                 if (clipName.Contains("skill"))
                 {
                     inSkillState = true;
+                }
+            }
+
+            if (!inUltimateState && anim.GetCurrentAnimatorClipInfoCount(0) > 0)
+            {
+                string clipName = anim.GetCurrentAnimatorClipInfo(0)[0].clip.name.ToLower();
+                if (clipName.Contains("ultimate"))
+                {
+                    inUltimateState = true;
                 }
             }
 
@@ -65,14 +76,15 @@ public class FighterController : MonoBehaviour
                 }
             }
 
-            // Khóa di chuyển nếu bool Skill, Attack đang bật hoặc clip Animator vẫn đang chiếu Skill/Attack
-            if (anim.GetBool("Skill") || inSkillState || anim.GetBool("Attack") || inAttackState)
+            // Khóa di chuyển nếu bool Skill, Attack, Ultimate đang bật hoặc clip Animator vẫn đang chiếu
+            if (anim.GetBool("Skill") || inSkillState || anim.GetBool("Attack") || inAttackState || anim.GetBool("Ultimate") || inUltimateState)
             {
                 MoveInput = 0;
                 rb.velocity = new Vector2(0, rb.velocity.y);
                 IsBlocking = false;
                 AttackPressed = false;
                 SkillPressed = false;
+                UltimatePressed = false;
                 return;
             }
         }
@@ -82,6 +94,7 @@ public class FighterController : MonoBehaviour
         Jump();
         ReadAttackInput();
         ReadSkillInput();
+        ReadUltimateInput();
     }
 
     void Move()
@@ -164,6 +177,18 @@ public class FighterController : MonoBehaviour
         if (SkillPressed)
         {
             PlaySound(skillSound);
+        }
+    }
+
+    void ReadUltimateInput()
+    {
+        UltimatePressed = playerID == 1
+            ? Input.GetKeyDown(KeyCode.I)
+            : Input.GetKeyDown(KeyCode.Alpha5);
+
+        if (UltimatePressed)
+        {
+            PlaySound(skillSound); // Có thể đổi thành ultimateSound nếu có
         }
     }
 
