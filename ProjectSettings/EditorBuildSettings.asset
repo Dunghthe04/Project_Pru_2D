@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fight_Map2.unity
     guid: 95af2285ed85ae742847788a135c9cbf
+  - enabled: 1
+    path: Assets/Scenes/WinnerScreen.unity
+    guid: 7a26449dfb85696408cf0f33388b687f
   m_configObjects: {}
