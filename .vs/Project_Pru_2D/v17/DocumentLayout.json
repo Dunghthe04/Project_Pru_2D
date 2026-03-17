@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\cac-ki-fpt\\k\u00EC 7\\pru213\\projectgame\\project_pru_2d\\assets\\scripts\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\cac-ki-fpt\\k\u00EC 7\\pru213\\projectgame\\project_pru_2d\\assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\cac-ki-fpt\\k\u00EC 7\\pru213\\projectgame\\project_pru_2d\\assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoundManager.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoundManager.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoundManager.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:37:45.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FighterController.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\FighterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FighterController.cs",
               "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\FighterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\FighterController.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAwwKoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAUwMIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T18:29:47.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FightCharacterSpawner.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SelectManager.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\SelectManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectManager.cs",
@@ -83,12 +100,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SelectManager.cs",
               "ViewState": "AgIAALsAAAAAAAAAAADwv9MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T03:55:30.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T03:55:30.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameSettings.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\GameSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSettings.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RulesUI.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RulesUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RulesUI.cs",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
@@ -120,8 +136,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAkwCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T02:49:38.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T02:49:38.23Z"
             }
           ]
         }

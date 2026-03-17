@@ -181,9 +181,9 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 8
   audioSource: {fileID: 0}
-  jumpSound: {fileID: 0}
-  attackSound: {fileID: 0}
-  skillSound: {fileID: 0}
+  jumpSound: {fileID: 8300000, guid: b02b2d520bf1fc34696ff4d0ee3da9eb, type: 3}
+  attackSound: {fileID: 8300000, guid: 25ffcb7df151c9e40afe696f90a2e1e4, type: 3}
+  skillSound: {fileID: 8300000, guid: cc6db8312ef058849a2376eb18fef0f8, type: 3}
   blockSound: {fileID: 0}
   landSound: {fileID: 0}
 --- !u!95 &5354442006060594066
@@ -223,6 +223,7 @@ MonoBehaviour:
   skillDelay: 0.5
   skillPrefab: {fileID: 4916097192543433531, guid: ee85f68d563970a42917b52424f0d596, type: 3}
   skillSpawnPoint: {fileID: 4823552755325634868}
+  spawnSkillOnEnemy: 0
   attackPoint: {fileID: 4388783997828646924}
 --- !u!114 &4615976555790754160
 MonoBehaviour:

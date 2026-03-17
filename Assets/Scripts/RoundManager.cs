@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
 using TMPro;
-using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RoundManager : MonoBehaviour
 {
@@ -101,10 +102,16 @@ public class RoundManager : MonoBehaviour
     {
         UpdateUI();
 
+        // ⭐ CHECK NGƯỜI THẮNG TRẬN
         if (p1Score >= 2 || p2Score >= 2)
         {
             roundText.text = (p1Score > p2Score) ? "P1 WINS!" : "P2 WINS!";
             roundText.gameObject.SetActive(true);
+
+            // ⭐ ĐỢI 2 GIÂY RỒI CHUYỂN SCENE
+            yield return new WaitForSeconds(2f);
+
+            SceneManager.LoadScene("WinnerScreen");
             yield break;
         }
 
@@ -123,22 +130,18 @@ public class RoundManager : MonoBehaviour
 
     void ResetPlayers()
     {
-        // Reset máu
         p1.currentHealth = p1.maxHealth;
         p2.currentHealth = p2.maxHealth;
 
-        // Reset vị trí
         p1.transform.position = p1StartPos;
         p2.transform.position = p2StartPos;
 
-        // Reset controller
         FighterController c1 = p1.GetComponent<FighterController>();
         FighterController c2 = p2.GetComponent<FighterController>();
 
         c1.enabled = true;
         c2.enabled = true;
 
-        // Reset Animator
         Animator a1 = p1.GetComponent<Animator>();
         Animator a2 = p2.GetComponent<Animator>();
 
