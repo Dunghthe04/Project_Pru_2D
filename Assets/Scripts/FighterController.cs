@@ -14,6 +14,7 @@ public class FighterController : MonoBehaviour
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip attackSound;
     [SerializeField] private AudioClip skillSound;
+    [SerializeField] private AudioClip ultimateSound; // ⭐ thêm
     [SerializeField] private AudioClip blockSound;
     [SerializeField] private AudioClip landSound;
 
@@ -21,6 +22,7 @@ public class FighterController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator anim;
+
     public bool IsGrounded { get; private set; }
     public float MoveInput { get; private set; }
     public bool AttackPressed { get; private set; }
@@ -40,44 +42,28 @@ public class FighterController : MonoBehaviour
 
     void Update()
     {
+        // 🔥 KHÓA KHI ĐANG ĐÁNH / SKILL / ULTIMATE
         if (anim != null)
         {
             AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
 
-            // Kiếm tra tên chính xác hoặc Tag cho Skill và Attack
             bool inSkillState = stateInfo.IsName("Skill") || stateInfo.IsTag("Skill");
             bool inUltimateState = stateInfo.IsName("Ultimate") || stateInfo.IsTag("Ultimate");
             bool inAttackState = stateInfo.IsName("Attack") || stateInfo.IsTag("Attack");
 
-            if (!inSkillState && anim.GetCurrentAnimatorClipInfoCount(0) > 0)
+            // fallback check bằng tên clip
+            if (anim.GetCurrentAnimatorClipInfoCount(0) > 0)
             {
                 string clipName = anim.GetCurrentAnimatorClipInfo(0)[0].clip.name.ToLower();
-                if (clipName.Contains("skill"))
-                {
-                    inSkillState = true;
-                }
+
+                if (clipName.Contains("skill")) inSkillState = true;
+                if (clipName.Contains("ultimate")) inUltimateState = true;
+                if (clipName.Contains("attack")) inAttackState = true;
             }
 
-            if (!inUltimateState && anim.GetCurrentAnimatorClipInfoCount(0) > 0)
-            {
-                string clipName = anim.GetCurrentAnimatorClipInfo(0)[0].clip.name.ToLower();
-                if (clipName.Contains("ultimate"))
-                {
-                    inUltimateState = true;
-                }
-            }
-
-            if (!inAttackState && anim.GetCurrentAnimatorClipInfoCount(0) > 0)
-            {
-                string clipName = anim.GetCurrentAnimatorClipInfo(0)[0].clip.name.ToLower();
-                if (clipName.Contains("attack"))
-                {
-                    inAttackState = true;
-                }
-            }
-
-            // Khóa di chuyển nếu bool Skill, Attack, Ultimate đang bật hoặc clip Animator vẫn đang chiếu
-            if (anim.GetBool("Skill") || inSkillState || anim.GetBool("Attack") || inAttackState || anim.GetBool("Ultimate") || inUltimateState)
+            if (anim.GetBool("Skill") || inSkillState ||
+                anim.GetBool("Attack") || inAttackState ||
+                anim.GetBool("Ultimate") || inUltimateState)
             {
                 MoveInput = 0;
                 rb.velocity = new Vector2(0, rb.velocity.y);
@@ -188,7 +174,7 @@ public class FighterController : MonoBehaviour
 
         if (UltimatePressed)
         {
-            PlaySound(skillSound); // Có thể đổi thành ultimateSound nếu có
+            PlaySound(ultimateSound); // ⭐ ultimate riêng
         }
     }
 
@@ -220,5 +206,11 @@ public class FighterController : MonoBehaviour
         {
             audioSource.PlayOneShot(clip);
         }
+    }
+
+    // ⭐ OPTIONAL: dùng cho Animation Event (pro)
+    public void PlayUltimateSound()
+    {
+        PlaySound(ultimateSound);
     }
 }

@@ -183,6 +183,7 @@ MonoBehaviour:
   jumpSound: {fileID: 8300000, guid: b02b2d520bf1fc34696ff4d0ee3da9eb, type: 3}
   attackSound: {fileID: 8300000, guid: c0fa88bf7539c7a4f8e911dcb866f41d, type: 3}
   skillSound: {fileID: 8300000, guid: 84c01b830c32e2a40af03ac1a979335a, type: 3}
+  ultimateSound: {fileID: 8300000, guid: cd9f50dfc8ea62f47ac674613b102536, type: 3}
   blockSound: {fileID: 0}
   landSound: {fileID: 0}
 --- !u!95 &8751403524656901253
