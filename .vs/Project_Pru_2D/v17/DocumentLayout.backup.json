@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\cac-ki-fpt\\k\u00EC 7\\pru213\\projectgame\\project_pru_2d\\assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\cac-ki-fpt\\k\u00EC 7\\pru213\\projectgame\\project_pru_2d\\assets\\scripts\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|d:\\cac-ki-fpt\\k\u00EC 7\\pru213\\projectgame\\project_pru_2d\\assets\\scripts\\winnerscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winnerscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E557BB84-D89F-E10A-9AE7-8E4E54E757DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinnerSceneManager.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\WinnerSceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinnerSceneManager.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\WinnerSceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinnerSceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:46:21.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoundManager.cs",
+              "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoundManager.cs",
+              "ToolTip": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoundManager.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAA3wHEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:37:45.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FighterController.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\FighterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FighterController.cs",
@@ -58,12 +92,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FighterController.cs",
               "ViewState": "AgIAAKwAAAAAAAAAAAAUwMIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T18:29:47.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:29:47.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FightCharacterSpawner.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\FightCharacterSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FightCharacterSpawner.cs",
@@ -75,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SelectManager.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\SelectManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectManager.cs",
@@ -87,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameSettings.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\GameSettings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSettings.cs",
@@ -99,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RulesUI.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\RulesUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RulesUI.cs",
@@ -111,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "D:\\cac-ki-fpt\\K\u00EC 7\\PRU213\\ProjectGame\\Project_Pru_2D\\Assets\\Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
