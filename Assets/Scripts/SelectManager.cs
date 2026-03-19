@@ -17,6 +17,7 @@ public class MapEntry
 {
     public string name;
     public Sprite preview;
+    public string sceneName; 
 }
 #endregion
 
@@ -43,8 +44,7 @@ public class SelectManager : MonoBehaviour
     public TMP_Text mapStatus;
 
     [Header("FIGHT SCENES")]
-    [SerializeField] private string fightMap1Scene = "Fight_Map1";
-    [SerializeField] private string fightMap2Scene = "Fight_Map2";
+
 
     int p1Index = 0;
     int p2Index = 0;
@@ -71,11 +71,10 @@ public class SelectManager : MonoBehaviour
             GameSettings.I.p1CharIndex = p1Index;
             GameSettings.I.p2CharIndex = p2Index;
             GameSettings.I.mapIndex = mapIndex;
-
-            string sceneToLoad =
-                (mapIndex == 0) ? fightMap1Scene : fightMap2Scene;
-
-            SceneManager.LoadScene(sceneToLoad);
+            
+                Debug.Log(maps[mapIndex].sceneName);
+               
+            SceneManager.LoadScene(maps[mapIndex].sceneName);
         }
     }
 
