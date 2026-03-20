@@ -471,8 +471,10 @@ MonoBehaviour:
   maps:
   - name: Map1
     preview: {fileID: 21300000, guid: 9e61e55c1406bc445919af7dcadcf1a7, type: 3}
+    sceneName: Fight_Map1
   - name: Map2
     preview: {fileID: 21300000, guid: 70c40ef97e67c4b418af5032cf521cd0, type: 3}
+    sceneName: Fight_Map2
   characterSlots:
   - {fileID: 252866657}
   - {fileID: 1790255611}
@@ -488,8 +490,6 @@ MonoBehaviour:
   p1Status: {fileID: 965102355}
   p2Status: {fileID: 1161900355}
   mapStatus: {fileID: 1109411247}
-  fightMap1Scene: Fight_Map1
-  fightMap2Scene: Fight_Map2
 --- !u!4 &277623955
 Transform:
   m_ObjectHideFlags: 0
