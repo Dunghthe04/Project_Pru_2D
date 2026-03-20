@@ -30,6 +30,8 @@ public class FighterController : MonoBehaviour
     public bool UltimatePressed { get; private set; }
     public bool IsBlocking { get; private set; }
 
+    private bool canDoubleJump;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -113,18 +115,27 @@ public class FighterController : MonoBehaviour
 
     void Jump()
     {
-        if (!IsGrounded || IsBlocking) return;
+        if (IsBlocking) return;
 
-        if (playerID == 1 && Input.GetKeyDown(KeyCode.W))
-        {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            PlaySound(jumpSound);
-        }
+        bool jumpPressed = (playerID == 1 && Input.GetKeyDown(KeyCode.W)) ||
+                           (playerID == 2 && Input.GetKeyDown(KeyCode.UpArrow));
 
-        if (playerID == 2 && Input.GetKeyDown(KeyCode.UpArrow))
+        if (jumpPressed)
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            PlaySound(jumpSound);
+            if (IsGrounded)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, 0); // Reset vận tốc Y để nhảy đều
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                PlaySound(jumpSound);
+                canDoubleJump = true; // Cho phép nhảy lần 2
+            }
+            else if (canDoubleJump)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, 0); // Reset vận tốc Y cho lần nhảy 2
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                PlaySound(jumpSound);
+                canDoubleJump = false; // Đã sử dụng nhảy lần 2
+            }
         }
     }
 
@@ -184,6 +195,7 @@ public class FighterController : MonoBehaviour
         {
             bool wasGrounded = IsGrounded;
             IsGrounded = true;
+            canDoubleJump = true;
 
             if (!wasGrounded)
             {
