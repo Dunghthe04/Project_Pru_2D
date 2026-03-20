@@ -131,13 +131,13 @@ public class SelectManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Keypad1))
         {
             p2Ready = true;
             RefreshUI();
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Keypad2))
         {
             p2Ready = false;
             RefreshUI();
