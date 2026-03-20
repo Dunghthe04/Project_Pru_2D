@@ -157,7 +157,7 @@ public class FighterController : MonoBehaviour
     {
         AttackPressed = playerID == 1
             ? Input.GetKeyDown(KeyCode.J)
-            : Input.GetKeyDown(KeyCode.Alpha1);
+            : (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1));
 
         if (AttackPressed)
         {
@@ -169,7 +169,7 @@ public class FighterController : MonoBehaviour
     {
         SkillPressed = playerID == 1
             ? Input.GetKeyDown(KeyCode.U)
-            : Input.GetKeyDown(KeyCode.Alpha4);
+            : (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4));
 
         if (SkillPressed)
         {
@@ -181,7 +181,7 @@ public class FighterController : MonoBehaviour
     {
         UltimatePressed = playerID == 1
             ? Input.GetKeyDown(KeyCode.I)
-            : Input.GetKeyDown(KeyCode.Alpha5);
+            : (Input.GetKeyDown(KeyCode.Alpha5) || Input.GetKeyDown(KeyCode.Keypad5));
 
         if (UltimatePressed)
         {
